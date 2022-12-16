@@ -25,7 +25,7 @@
 
             <section>
                 <div class="topLeft">
-                    <input type="number" value="5">
+                    <input id="topLeftValue" type="text" value="0" onkeypress="printValue()">
                 </div>
     
                 <div class="topRight">
@@ -38,9 +38,12 @@
     
                 <div class="bottomLeft">
                     <input type="number" value="0">
-                </div>    
-            </section>
+                </div>
 
+                <div>
+                    <textarea id="inputResult" cols="10" rows="100"></textarea>
+                </div>
+            </section>
         </div>
     </main>
 </body>
